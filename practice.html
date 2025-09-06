@@ -1,0 +1,233 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .reviews {
+            display: flex;
+            gap: 20px;
+        }
+        .review {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .review-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .review-header img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .review-header .name {
+            font-weight: bold;
+        }
+        .review-header .date {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .stars {
+            color: #f5c518;
+            margin-bottom: 10px;
+        }
+        .verified {
+            color: #1a73e8;
+            margin-left: 5px;
+        }
+        .review-text {
+            font-size: 0.95em;
+            color: #333;
+        }
+        .read-more {
+            color: #1a73e8;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="reviews">
+        <div class="review">
+            <div class="review-header">
+                <img src="profile1.jpg" alt="Profile Picture">
+                <div>
+                    <div class="name">Sumitra Tatapudi</div>
+                    <div class="date">2022-01-07</div>
+                </div>
+            </div>
+            <div class="stars">★★★★★<span class="verified">✔</span></div>
+            <div class="review-text">We absolutely lovedddd working with Sweety!! She is truly fantastic! I cannot imagine our wedding...</div>
+            <a href="#" class="read-more">Read more</a>
+        </div>
+        <div class="review">
+            <div class="review-header">
+                <img src="profile2.jpg" alt="Profile Picture">
+                <div>
+                    <div class="name">Kelly Twiss</div>
+                    <div class="date">2021-10-19</div>
+                </div>
+            </div>
+            <div class="stars">★★★★★<span class="verified">✔</span></div>
+            <div class="review-text">Sweety was so wonderful leading up to the wedding, as well as the day of! She really put my mind at eas...</div>
+            <a href="#" class="read-more">Read more</a>
+        </div>
+        <div class="review">
+            <div class="review-header">
+                <img src="profile3.jpg" alt="Profile Picture">
+                <div>
+                    <div class="name">Kendra P</div>
+                    <div class="date">2021-10-04</div>
+                </div>
+            </div>
+            <div class="stars">★★★★★<span class="verified">✔</span></div>
+            <div class="review-text">Sweety did more than what we asked for! Our wedding was awesome and it went very smoothly because sh...</div>
+            <a href="#" class="read-more">Read more</a>
+        </div>
+    </div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Marquee Effect</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #feffae, #ffffff);
+            color: rgb(43, 70, 15);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        h1 {
+            color: green;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        .marquee-container {
+            display: flex;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: marquee 10s linear infinite;
+            box-shadow: 0px 0px 10px rgba(36, 88, 21, 0.5);
+            border-radius: 10px;
+        }
+
+        .marquee-content {
+            font-size: 2em;
+            margin-right: 20px;
+            animation: textAnimation 5s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        @keyframes textAnimation {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>GeeksforGeeks</h1>
+    <h3>Marquee Effect using
+        HTML and CSS
+    </h3>
+    <div class="marquee-container">
+        <div class="marquee-content">
+            Welcome to GeeksforGeeks
+        </div>
+    </div>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <style>
+        .p{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .parent-container{
+            height: 300px;
+            width: 300px;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            background-color: aqua;
+        }
+        .parent-container img{
+            height: 300px;
+            width: 300px;
+        }
+
+    </style>
+</head>
+<body class="p">
+    <div class="parent-container">
+        <!-- <img src="images/arranged-marriages.webp" alt="image"> -->
+        <div></div>
+        <div></div>
+    </div> 
+</body>
+</html>
